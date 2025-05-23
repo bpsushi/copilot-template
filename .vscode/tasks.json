@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Switch Copilot Mode",
+      "type": "shell",
+      "command": "${workspaceFolder}/.vscode/switch-copilot-mode.sh",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
